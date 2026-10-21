@@ -1,0 +1,508 @@
+[
+  {
+    "slug": "basic-rules",
+    "title": "Basic Rules",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "You MUST have a working microphone to play, we are a serious roleplay server."
+      },
+      {
+        "type": "rule",
+        "text": "All players MUST have clipping software running at all times. To report a player, you must provide a clip of at least 2 minutes in length. Recommend + https://medal.tv/ Non Sponsored"
+      },
+      {
+        "type": "rule",
+        "text": "Player’s MUST Be Following Kick & Twitch and Guidelines https://kick.com/community-guidelines, https://www.twitch.tv/p/en/legal/terms-of-service/"
+      },
+      {
+        "type": "rule",
+        "text": "Realistic Character Names Are Required - Failing To Do so will get your character CK"
+      },
+      {
+        "type": "rule",
+        "text": "Exchanging any in-game items or assets for real-world money or external goods is strictly forbidden, as it breaches the CFX Platform License Agreement."
+      },
+      {
+        "type": "rule",
+        "text": "Roleplay actions must be respectful, reasonable, and justified. Simply stating “that’s just my character” does not justify inappropriate actions."
+      },
+      {
+        "type": "rule",
+        "text": "Engaging in any toxic, harmful, or disrespectful conduct—including impersonating staff members, server management, or governmental figures—will lead to immediate removal from the community."
+      },
+      {
+        "type": "rule",
+        "text": "Maintain a respectful environment. Harassment, repetitive negativity, threats, or sharing personal information are strictly forbidden."
+      }
+    ]
+  },
+  {
+    "slug": "metagaming",
+    "title": "Metagaming",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "Using any information obtained outside of roleplay to influence in-game actions—or encouraging others to do so—is strictly forbidden."
+      },
+      {
+        "type": "rule",
+        "text": "You cannot watch another player’s live streams or social media content (Twitch, YouTube, Kick, TikTok, Discord, etc.) while both of you are active in Lakeshore."
+      },
+      {
+        "type": "rule",
+        "text": "Gathering intel from outside sources—such as tracking a player’s stash or location via stream—is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Using applications like Discord or other external voice/text chats to communicate while in the city is prohibited."
+      },
+      {
+        "type": "rule",
+        "text": "Sending money or items between your own characters, or asking others to facilitate such transfers, is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Any knowledge obtained from one character must not be used by another. This form of \"character bleeding\" is strictly forbidden."
+      },
+      {
+        "type": "rule",
+        "text": "Identifying someone purely by their voice when they are masked or inside a heavily tinted vehicle is against the rules."
+      },
+      {
+        "type": "rule",
+        "text": "Following someone in the city based on information obtained from external sources is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Violating the metagaming rule results in a one-week ban. Punishments will get worse if repetition of violation of the rules continues."
+      }
+    ]
+  },
+  {
+    "slug": "ooc",
+    "title": "OOC Rules",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "OOC is not allowed during roleplay. Violations may lead to admin jail or a ban."
+      },
+      {
+        "type": "rule",
+        "text": "Stay in character at all times and use proper RP terms (e.g., “head popped,” “see the light”)."
+      }
+    ]
+  },
+  {
+    "slug": "powergaming",
+    "title": "Powergaming Regulation’s",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Powergaming refers to exploiting game mechanics or imposing unrealistic roleplay on others to gain an unfair advantage in roleplay situations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Prohibited Actions & Example’s:"
+      },
+      {
+        "type": "rule",
+        "text": "Actions such as bunny-hopping while running, switching to first-person for speed boosts, or spamming punches in fistfights are not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Using keybinded animations to evade, hide, or duck during roleplay is forbidden."
+      },
+      {
+        "type": "rule",
+        "text": "Attempting to cuff someone without proper roleplay or forcefully searching a player’s pockets, especially when PD already has them restrained, is not permitted."
+      },
+      {
+        "type": "rule",
+        "text": "Running into apartments, warehouses, or buildings to escape roleplay situations is strictly prohibited."
+      },
+      {
+        "type": "rule",
+        "text": "Roleplaying traits that are unrealistic solely to gain an advantage in a situation is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Jumping off ramps or into water to escape during a chase—especially from law enforcement—is against the rules."
+      },
+      {
+        "type": "rule",
+        "text": "The use of voice changers must be reviewed and approved by staff before use."
+      },
+      {
+        "type": "rule",
+        "text": "Avoiding roleplay in designated GREEN ZONES or using them for personal gain is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Any item or money exchanges made in GREEN ZONES are not valid, and no refunds will be provided if something is lost."
+      },
+      {
+        "type": "rule",
+        "text": "Players without the official WindFall Angels Role are not allowed to roleplay as a female character or use a female pedestrian model."
+      },
+      {
+        "type": "rule",
+        "text": "Jumping into a vehicle to escape roleplay, an interaction, or an attack is prohibited."
+      },
+      {
+        "type": "rule",
+        "text": "Dumping bodies without a legitimate reason or storyline is not permitted."
+      }
+    ]
+  },
+  {
+    "slug": "decency-respect",
+    "title": "In Game Decency and Respect",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Slurs,racism,pedophilia,homophobia, and sexism will not be tollerated under any circumstances anyone and everyone is welcome no matter your sexuality, race, and religion, gender, & belives but for slurs there is and exception for the n-word with a soft-a. Making fun of anyone's disabilities is against our rules and guidelines. Remember they didn't choose to have their disability so treat them like everyone else. Staff Disrespect and Player Disrespect will NOT be Tolerated player disrespect in rp is exceptional. If you think a staff member is being unreasonable or unprofessional please make a staff report WE DO NOT TOLERATE UNPROFESSIONAL STAFF."
+      }
+    ]
+  },
+  {
+    "slug": "deathmatching",
+    "title": "Deathmatching Regulations",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Random Deathmatching (RDM) and Vehicle Deathmatching (VDM) refer to attacking another player without prior interaction or justification, which is strictly prohibited."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rules for Engagement:"
+      },
+      {
+        "type": "rule",
+        "text": "Before engaging in any violent act, there must be a proper interaction. All interactions MUST use Roleplay Actions"
+      },
+      {
+        "type": "rule",
+        "text": "When initiating, your voice must be set to shout to ensure clear communication."
+      },
+      {
+        "type": "rule",
+        "text": "Any act of violence must be justified by a reasonable roleplay storyline. Random attacks without purpose are not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Once a scene has ended, you cannot return to the location to re-initiate."
+      },
+      {
+        "type": "rule",
+        "text": "If you are knocked down by gunfire, you have the choice to either roleplay your injuries or continue fighting if realistically possible."
+      },
+      {
+        "type": "rule",
+        "text": "If you are killed during a shootout and revived, you cannot rejoin the fight—doing so is a rule violation."
+      }
+    ]
+  },
+  {
+    "slug": "exploitation",
+    "title": "Exploitation",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Abusing game mechanics, GTA glitches, or any unintended features to gain an unfair advantage in roleplay is strictly prohibited. All players are expected to engage in fair and realistic roleplay without using exploits to manipulate the game environment."
+      },
+      {
+        "type": "paragraph",
+        "text": "Prohibited Actions & Example’s:"
+      },
+      {
+        "type": "rule",
+        "text": "Using sunbathing or any emote to glitch into buildings is strictly prohibited."
+      },
+      {
+        "type": "rule",
+        "text": "Utilizing emotes to hide, duck, or gain an unfair advantage is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Spamming the carry function while dead, or using emotes on others while knocked out, is forbidden."
+      },
+      {
+        "type": "rule",
+        "text": "Abusing the /e pockets emote or any similar method to manipulate inventory mechanics is not permitted."
+      }
+    ]
+  },
+  {
+    "slug": "combat-logging",
+    "title": "Combat Logging",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "You may log out only 10 minutes after a scene has fully concluded."
+      },
+      {
+        "type": "rule",
+        "text": "Quitting mid-scene or disconnecting your internet is prohibited."
+      },
+      {
+        "type": "rule",
+        "text": "Relogging to avoid a scene or waiting on the loading screen for it to clear is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "If involved in a shootout, you must stay until revived by EMS before logging out."
+      },
+      {
+        "type": "rule",
+        "text": "Exploiting while dead is forbidden."
+      },
+      {
+        "type": "rule",
+        "text": "During a police chase or any armed situation, you must finish the scene before logging out."
+      },
+      {
+        "type": "rule",
+        "text": "If being robbed, you must wait until the robber leaves before logging out."
+      },
+      {
+        "type": "rule",
+        "text": "If pronounced dead on scene, you must remain until fully PK’d."
+      },
+      {
+        "type": "rule",
+        "text": "Combat logging results in a 5-week ban."
+      }
+    ]
+  },
+  {
+    "slug": "new-life-rule",
+    "title": "New Life Rule (NLR)",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "Respawning at the hospital (“seeing the light”) erases all memory of the scene."
+      },
+      {
+        "type": "rule",
+        "text": "If \"flat backed\" (fully unconscious) and revived, you forget the immediate circumstances."
+      },
+      {
+        "type": "rule",
+        "text": "You cannot return to the scene or recover lost items."
+      },
+      {
+        "type": "rule",
+        "text": "After being killed, you lose knowledge of the last hour."
+      }
+    ]
+  },
+  {
+    "slug": "valuing-life",
+    "title": "Not Valuing Life Rule (NVL)",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "Your character must act in a way that prioritizes survival."
+      },
+      {
+        "type": "rule",
+        "text": "Fleeing in life-threatening situations is prohibited."
+      },
+      {
+        "type": "rule",
+        "text": "If outnumbered, you must comply with aggressors."
+      },
+      {
+        "type": "rule",
+        "text": "Antagonizing gangs or PD without reason is a bannable offense."
+      },
+      {
+        "type": "rule",
+        "text": "Inserting yourself into violent situations without reason is considered failed RP."
+      },
+      {
+        "type": "rule",
+        "text": "Failing to RP injuries after dangerous stunts is also failed RP."
+      },
+      {
+        "type": "rule",
+        "text": "Repeated NVL may result in staff deleting your character."
+      }
+    ]
+  },
+  {
+    "slug": "admin-jail",
+    "title": "Admin Jail",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "Players are required to capture proof (screenshot or video) of their admin jail, including the reason and the issuing admin."
+      },
+      {
+        "type": "rule",
+        "text": "Deliberate rule violations will result in penalties, including potential inventory wipes."
+      },
+      {
+        "type": "rule",
+        "text": "To dispute an admin jail, you must provide a recorded clip of at least 2 minutes covering the situation."
+      },
+      {
+        "type": "rule",
+        "text": "If no valid footage is available, the punishment will stand without appeal."
+      }
+    ]
+  },
+  {
+    "slug": "character-development",
+    "title": "Character Developement",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "Characters must have a valid storyline that expands over time."
+      },
+      {
+        "type": "rule",
+        "text": "Committing crimes without reason is not allowed and may result in a ban for “no intent to roleplay.”"
+      },
+      {
+        "type": "rule",
+        "text": "Civilians must have or roleplay a job in order to purchase property."
+      },
+      {
+        "type": "rule",
+        "text": "Gang members must own property on their block; to expand, they must have a job and show proof of income."
+      },
+      {
+        "type": "rule",
+        "text": "Family RP must involve family activities, and crimes can only be committed if provoked or in self-defense."
+      },
+      {
+        "type": "rule",
+        "text": "A character may only carry one gun at a time, with one full clip and an extra clip of bullets."
+      },
+      {
+        "type": "rule",
+        "text": "Transferring assets between characters (homes, cars, money, etc.) is strictly prohibited."
+      }
+    ]
+  },
+  {
+    "slug": "whitelisted-jobs",
+    "title": "Whitelisted Job’s",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "Corrupt roleplay is strictly forbidden"
+      },
+      {
+        "type": "rule",
+        "text": "Emergency service personnel must have two separate characters, and only the one without the whitelisted job can be involved in a gang."
+      },
+      {
+        "type": "rule",
+        "text": "Jail sentences exceeding 200 months require DOJ approval."
+      },
+      {
+        "type": "rule",
+        "text": "Officers must store all evidence in designated lockers—keeping evidence personally will result in a permanent ban."
+      },
+      {
+        "type": "rule",
+        "text": "On-duty medics are not allowed to carry firearms but may have a melee weapon for self-defense."
+      },
+      {
+        "type": "rule",
+        "text": "Medics are prohibited from engaging in violence or provoking others while working."
+      },
+      {
+        "type": "rule",
+        "text": "Proper uniforms must be worn at all times by emergency personnel."
+      },
+      {
+        "type": "rule",
+        "text": "Undercover officers must wear reasonable disguises and show identification when making arrests."
+      },
+      {
+        "type": "rule",
+        "text": "If questioned about being law enforcement, officers must provide a truthful answer."
+      },
+      {
+        "type": "rule",
+        "text": "Framing suspects by planting illegal items or drugs is not allowed."
+      },
+      {
+        "type": "rule",
+        "text": "Medics are only permitted to operate officially assigned emergency vehicles."
+      }
+    ]
+  },
+  {
+    "slug": "leveling-system",
+    "title": "Leveling System",
+    "source": "WindFall Leveling System.pdf",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Levels are earned through /me and /do roleplay commands. A cooldown prevents spam and keeps roleplay realistic."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instant Access"
+      },
+      {
+        "type": "rule",
+        "text": "All players have access to melee weapon’s."
+      },
+      {
+        "type": "paragraph",
+        "text": "Level Unlocks"
+      },
+      {
+        "type": "rule",
+        "text": "Level 2 → Burner Guns"
+      },
+      {
+        "type": "rule",
+        "text": "Level 5 → Gun Plug (wider firearm selection)"
+      },
+      {
+        "type": "rule",
+        "text": "Level 10 → Apply for a Legal Gun License"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rewards"
+      },
+      {
+        "type": "rule",
+        "text": "Cash bonuses are automatically granted at certain levels."
+      },
+      {
+        "type": "paragraph",
+        "text": "Notes"
+      },
+      {
+        "type": "rule",
+        "text": "Gun licenses still require an application and approval."
+      },
+      {
+        "type": "rule",
+        "text": "Exploiting the system may result in penalties."
+      }
+    ]
+  }
+]
