@@ -8,3 +8,7 @@ main h1[tabindex="-1"]:focus{outline:none}
 
 .article-content h2{font-size:25px;line-height:1.35;margin:34px 0 20px;scroll-margin-top:110px}.article-content h3{font-size:19px;line-height:1.45;margin:28px 0 13px;scroll-margin-top:110px}
 @media(max-width:760px){.article-content h2{font-size:22px}.article-content h3{font-size:17px}}
+
+.welcome-logo{display:block;justify-self:center;width:240px;height:240px;max-width:100%;object-fit:contain}
+@media(max-width:1100px) and (min-width:761px){.welcome-logo{width:190px;height:190px}}
+@media(max-width:760px){.welcome-logo{width:220px;height:220px}}
