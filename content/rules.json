@@ -504,5 +504,152 @@
         "text": "Medics are only permitted to operate officially assigned emergency vehicles."
       }
     ]
+  },
+  {
+    "slug": "donator-terms-of-service",
+    "title": "Donator Terms of Service",
+    "source": "Donator Terms Of Service.pdf",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "WindFall Terms of Service for Donators"
+      },
+      {
+        "type": "paragraph",
+        "text": "By donating to our platform, you agree to the following Terms of Service (TOS). Please read these terms carefully before proceeding."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "1. Donator Assets and Inactivity Policy"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1.1 Asset Revocation Due to Inactivity"
+      },
+      {
+        "type": "paragraph",
+        "text": "Donator assets, including but not limited to in-game items, perks, and cosmetic enhancements, may be revoked if the donator account remains inactive for a period of 30 consecutive days without any activity (e.g., login, in-game purchases, participation). Assets will be removed and may be permanently lost after this period."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1.2 Asset Revocation Following a Ban"
+      },
+      {
+        "type": "paragraph",
+        "text": "If a donator account is subject to a 30-day ban for violations of platform rules, donator assets may also be revoked after 45 days of inactivity from the date the ban is applied. The platform reserves the right to remove any associated assets once this inactivity period has been reached."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1.3 Appeals and Reinstatement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Donators may appeal the revocation of their assets within 30 days from the date of removal. If the appeal is accepted, assets may be reinstated at the platform’s discretion. Appeals can be made through the designated support channels."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2. Keymaster Assets and Custom Clothing"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2.1 Revocation of Keymaster Assets"
+      },
+      {
+        "type": "paragraph",
+        "text": "Any assets tied to Keymaster accounts, including but not limited to special in-game keys, exclusive items, and unique features, can be removed from a donator’s account under certain conditions, such as inactivity or violations of platform rules. However, once an asset has been removed, the Keymaster file/asset will not be sent back to the donator’s possession. This means that the donator cannot reclaim the asset after it has been revoked, in compliance with the platform’s asset management rules."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2.2 Non-Refundable and Non-Transferable Keymaster Assets"
+      },
+      {
+        "type": "paragraph",
+        "text": "All Keymaster assets, including but not limited to custom clothing, faces, chains, and other personalized in-game items, cannot be refunded, returned, or transferred under any circumstances. These assets are exclusive to the Keymaster account and remain with the account indefinitely. The platform will not issue refunds for these items or transfer them to any other account."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2.3 FiveM Escrow and Asset Handling"
+      },
+      {
+        "type": "paragraph",
+        "text": "In accordance with the FiveM escrow system, when a donator purchases custom assets (such as MLOs, custom vehicles, or other in-game modifications) via Keymaster, these assets are typically non-returnable and non-transferable. Once the donator sends the files to the platform, they will not be able to reclaim the files or assets due to the limitations set by FiveM's escrow system, which ensures that assets cannot be refunded or sent back. These files are handled in a way that prevents direct transfers between users and the platform under FiveM’s rules, and once used, they cannot be sent back or refunded."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "3. Player-Owned Businesses, MLOs, and Custom Vehicles"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3.1 Revocation of Player-Owned Businesses and MLOs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Any player-owned businesses or custom MLOs (Map Location Objects) tied to donator accounts may be revoked if the account remains inactive for 30 consecutive days. This includes custom in-game locations or establishments created or modified as part of donator perks. Assets related to these businesses and MLOs will be removed after this period without compensation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3.2 Revocation of Custom Import and Custom Vehicles"
+      },
+      {
+        "type": "paragraph",
+        "text": "Custom import vehicles and custom vehicles (e.g., modified cars, unique vehicle models) associated with donator accounts may also be revoked after 30 consecutive days of inactivity. The platform reserves the right to remove these vehicles from the account and the game world if the account does not engage in activity for the specified period."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3.3 Asset Removal for Violations"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the event of a ban or violation of platform rules, player-owned businesses, MLOs, and custom vehicles may also be revoked at the discretion of the platform, without refund or reinstatement."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "4. General Terms"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4.1 Donations Are Non-Refundable"
+      },
+      {
+        "type": "paragraph",
+        "text": "All donations made to the platform are non-refundable. Donators understand that their contributions are final and will not be returned or credited in any form. This includes all monetary donations made for in-game assets, perks, or other enhancements."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4.2 Modification of Terms"
+      },
+      {
+        "type": "paragraph",
+        "text": "The platform reserves the right to update or modify these Terms of Service at any time. Donators will be notified of any changes via the provided communication channels, and continued participation in the platform will constitute acceptance of any updates to these terms."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4.3 Right to Suspend or Terminate Access"
+      },
+      {
+        "type": "paragraph",
+        "text": "The platform reserves the right to suspend or terminate access to any donator account or remove assets without prior notice if the account is found to be in violation of community guidelines, terms of service, or illegal activities."
+      },
+      {
+        "type": "paragraph",
+        "text": "By donating, you acknowledge and agree to abide by the terms outlined above. If you have any questions or concerns, please contact support."
+      }
+    ]
   }
 ]

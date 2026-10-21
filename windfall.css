@@ -5,3 +5,6 @@
 html{scrollbar-gutter:stable}
 main[aria-busy="true"]{cursor:progress}
 main h1[tabindex="-1"]:focus{outline:none}
+
+.article-content h2{font-size:25px;line-height:1.35;margin:34px 0 20px;scroll-margin-top:110px}.article-content h3{font-size:19px;line-height:1.45;margin:28px 0 13px;scroll-margin-top:110px}
+@media(max-width:760px){.article-content h2{font-size:22px}.article-content h3{font-size:17px}}
