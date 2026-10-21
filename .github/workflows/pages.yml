@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: '22'
       - run: node build.mjs
+      - run: node verify.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
