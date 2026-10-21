@@ -17,23 +17,91 @@ let storedTheme;try{storedTheme=localStorage.getItem('windfall-theme')}catch{}
 setTheme(storedTheme==='light'?'light':'dark');
 themeButton.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';setTheme(theme);try{localStorage.setItem('windfall-theme',theme)}catch{}});
 
-// Native document transitions where available; a small fallback elsewhere.
-const nativePageTransitions=typeof window.CSSViewTransitionRule==='function';
-document.documentElement.dataset.nativeTransitions=String(nativePageTransitions);
-const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
+// Keep the shell mounted and transition only the chapter content.
 const chapterMain=document.querySelector('main');
-let chapterNavigationPending=false;
-if(!nativePageTransitions){
- document.addEventListener('click',event=>{
-  const link=event.target.closest('a[href]');
-  if(!link||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download')||(link.target&&link.target!=='_self')||motionPreference.matches)return;
-  const destination=new URL(link.href);
-  if(destination.origin!==location.origin||!destination.pathname.endsWith('.html')||(destination.pathname===location.pathname&&destination.search===location.search))return;
-  event.preventDefault();
-  if(chapterNavigationPending)return;
-  chapterNavigationPending=true;
-  const fade=chapterMain.animate([{opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(-5px)'}],{duration:110,easing:'ease-out',fill:'forwards'});
-  fade.finished.catch(()=>{}).then(()=>location.assign(destination.href));
- });
- window.addEventListener('pageshow',event=>{if(event.persisted){chapterNavigationPending=false;for(const animation of chapterMain.getAnimations())animation.cancel()}});
+const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
+const chapterCache=new Map();
+let chapterRequest=0;
+let chapterAnimation;
+history.replaceState({...history.state,windfall:true,scrollX:window.scrollX,scrollY:window.scrollY},'',location.href);
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+function chapterDestination(link){
+ if(!link||link.hasAttribute('download')||(link.target&&link.target!=='_self'))return null;
+ const url=new URL(link.href);
+ return url.origin===location.origin&&url.pathname.endsWith('.html')&&url.searchParams.get('release')===document.body.dataset.release?url:null;
 }
+function fetchChapter(url){
+ const key=url.origin+url.pathname+url.search;
+ if(!chapterCache.has(key))chapterCache.set(key,fetch(key).then(response=>{
+  if(!response.ok)throw Error('Chapter unavailable');return response.text();
+ }).then(html=>{
+  const page=new DOMParser().parseFromString(html,'text/html');
+  if(!page.querySelector('main')||page.body.dataset.release!==document.body.dataset.release)throw Error('Chapter release mismatch');
+  return page;
+ }).catch(error=>{chapterCache.delete(key);throw error}));
+ return chapterCache.get(key);
+}
+function updateChapterSelection(){
+ document.querySelectorAll('#sidebar nav a').forEach(link=>{
+  const selected=new URL(link.href).pathname.split('/').pop()===document.body.dataset.page+'.html';
+  link.classList.toggle('active',selected);
+  if(selected)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
+ });
+}
+async function changeChapter(url,{push=true,restore=null}={}){
+ const request=++chapterRequest;
+ chapterAnimation?.cancel();
+ chapterMain.setAttribute('aria-busy','true');
+ try{
+  const page=await fetchChapter(url);
+  if(request!==chapterRequest)return;
+  if(dialog.open)dialog.close();
+  if(!motionPreference.matches){
+   chapterAnimation=chapterMain.animate([{opacity:1},{opacity:0}],{duration:90,easing:'ease-out',fill:'forwards'});
+   await chapterAnimation.finished.catch(()=>{});
+  }
+  if(request!==chapterRequest)return;
+  if(push){
+   history.replaceState({...history.state,windfall:true,scrollX:window.scrollX,scrollY:window.scrollY},'',location.href);
+   history.pushState({windfall:true,scrollX:0,scrollY:0},'',url.href);
+  }
+  chapterMain.replaceChildren(...[...page.querySelector('main').childNodes].map(node=>node.cloneNode(true)));
+  document.title=page.title;
+  document.body.dataset.page=page.body.dataset.page;
+  updateChapterSelection();
+  sidebar.classList.remove('open');menu.setAttribute('aria-expanded','false');
+  chapterAnimation?.cancel();
+  const heading=chapterMain.querySelector('h1');
+  if(heading){heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true})}
+  if(restore)window.scrollTo(restore.scrollX||0,restore.scrollY||0);
+  else if(url.hash){
+   let target;try{target=document.getElementById(decodeURIComponent(url.hash.slice(1)))}catch{}
+   if(target)target.scrollIntoView({block:'start'});else window.scrollTo(0,0);
+  }else window.scrollTo(0,0);
+  if(!motionPreference.matches){
+   chapterAnimation=chapterMain.animate([{opacity:0,transform:'translateY(5px)'},{opacity:1,transform:'translateY(0)'}],{duration:200,easing:'cubic-bezier(.22,.61,.36,1)'});
+   await chapterAnimation.finished.catch(()=>{});
+  }
+ }catch{
+  if(request===chapterRequest)location.assign(url.href);
+ }finally{
+  if(request===chapterRequest){chapterAnimation?.cancel();chapterMain.removeAttribute('aria-busy')}
+ }
+}
+document.addEventListener('click',event=>{
+ if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+ const url=chapterDestination(event.target.closest('a[href]'));
+ if(!url)return;
+ if(url.pathname===location.pathname&&url.search===location.search&&url.hash)return;
+ event.preventDefault();
+ if(url.href===location.href){sidebar.classList.remove('open');menu.setAttribute('aria-expanded','false');return}
+ changeChapter(url);
+});
+for(const eventName of ['pointerover','focusin'])document.addEventListener(eventName,event=>{
+ const url=chapterDestination(event.target.closest('a[href]'));
+ if(url)fetchChapter(url).catch(()=>{});
+});
+window.addEventListener('popstate',event=>{
+ if(event.state?.windfall)changeChapter(new URL(location.href),{push:false,restore:event.state});
+ else location.reload();
+});

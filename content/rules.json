@@ -39,6 +39,96 @@
     ]
   },
   {
+    "slug": "leveling-system",
+    "title": "Leveling System",
+    "source": "WindFall Leveling System.pdf",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Levels are earned through /me and /do roleplay commands. A cooldown prevents spam and keeps roleplay realistic."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instant Access"
+      },
+      {
+        "type": "rule",
+        "text": "All players have access to melee weapon’s."
+      },
+      {
+        "type": "paragraph",
+        "text": "Level Unlocks"
+      },
+      {
+        "type": "rule",
+        "text": "Level 2 → Burner Guns"
+      },
+      {
+        "type": "rule",
+        "text": "Level 5 → Gun Plug (wider firearm selection)"
+      },
+      {
+        "type": "rule",
+        "text": "Level 10 → Apply for a Legal Gun License"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rewards"
+      },
+      {
+        "type": "rule",
+        "text": "Cash bonuses are automatically granted at certain levels."
+      },
+      {
+        "type": "paragraph",
+        "text": "Notes"
+      },
+      {
+        "type": "rule",
+        "text": "Gun licenses still require an application and approval."
+      },
+      {
+        "type": "rule",
+        "text": "Exploiting the system may result in penalties."
+      }
+    ]
+  },
+  {
+    "slug": "character-development",
+    "title": "Character Developement",
+    "source": "WindFall Rules.pdf",
+    "blocks": [
+      {
+        "type": "rule",
+        "text": "Characters must have a valid storyline that expands over time."
+      },
+      {
+        "type": "rule",
+        "text": "Committing crimes without reason is not allowed and may result in a ban for “no intent to roleplay.”"
+      },
+      {
+        "type": "rule",
+        "text": "Civilians must have or roleplay a job in order to purchase property."
+      },
+      {
+        "type": "rule",
+        "text": "Gang members must own property on their block; to expand, they must have a job and show proof of income."
+      },
+      {
+        "type": "rule",
+        "text": "Family RP must involve family activities, and crimes can only be committed if provoked or in self-defense."
+      },
+      {
+        "type": "rule",
+        "text": "A character may only carry one gun at a time, with one full clip and an extra clip of bullets."
+      },
+      {
+        "type": "rule",
+        "text": "Transferring assets between characters (homes, cars, money, etc.) is strictly prohibited."
+      }
+    ]
+  },
+  {
     "slug": "metagaming",
     "title": "Metagaming",
     "source": "WindFall Rules.pdf",
@@ -365,41 +455,6 @@
     ]
   },
   {
-    "slug": "character-development",
-    "title": "Character Developement",
-    "source": "WindFall Rules.pdf",
-    "blocks": [
-      {
-        "type": "rule",
-        "text": "Characters must have a valid storyline that expands over time."
-      },
-      {
-        "type": "rule",
-        "text": "Committing crimes without reason is not allowed and may result in a ban for “no intent to roleplay.”"
-      },
-      {
-        "type": "rule",
-        "text": "Civilians must have or roleplay a job in order to purchase property."
-      },
-      {
-        "type": "rule",
-        "text": "Gang members must own property on their block; to expand, they must have a job and show proof of income."
-      },
-      {
-        "type": "rule",
-        "text": "Family RP must involve family activities, and crimes can only be committed if provoked or in self-defense."
-      },
-      {
-        "type": "rule",
-        "text": "A character may only carry one gun at a time, with one full clip and an extra clip of bullets."
-      },
-      {
-        "type": "rule",
-        "text": "Transferring assets between characters (homes, cars, money, etc.) is strictly prohibited."
-      }
-    ]
-  },
-  {
     "slug": "whitelisted-jobs",
     "title": "Whitelisted Job’s",
     "source": "WindFall Rules.pdf",
@@ -447,61 +502,6 @@
       {
         "type": "rule",
         "text": "Medics are only permitted to operate officially assigned emergency vehicles."
-      }
-    ]
-  },
-  {
-    "slug": "leveling-system",
-    "title": "Leveling System",
-    "source": "WindFall Leveling System.pdf",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "Levels are earned through /me and /do roleplay commands. A cooldown prevents spam and keeps roleplay realistic."
-      },
-      {
-        "type": "paragraph",
-        "text": "Instant Access"
-      },
-      {
-        "type": "rule",
-        "text": "All players have access to melee weapon’s."
-      },
-      {
-        "type": "paragraph",
-        "text": "Level Unlocks"
-      },
-      {
-        "type": "rule",
-        "text": "Level 2 → Burner Guns"
-      },
-      {
-        "type": "rule",
-        "text": "Level 5 → Gun Plug (wider firearm selection)"
-      },
-      {
-        "type": "rule",
-        "text": "Level 10 → Apply for a Legal Gun License"
-      },
-      {
-        "type": "paragraph",
-        "text": "Rewards"
-      },
-      {
-        "type": "rule",
-        "text": "Cash bonuses are automatically granted at certain levels."
-      },
-      {
-        "type": "paragraph",
-        "text": "Notes"
-      },
-      {
-        "type": "rule",
-        "text": "Gun licenses still require an application and approval."
-      },
-      {
-        "type": "rule",
-        "text": "Exploiting the system may result in penalties."
       }
     ]
   }
